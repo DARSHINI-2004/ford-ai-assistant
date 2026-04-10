@@ -27,15 +27,25 @@ rag/
 ├── api/
 
 │   └── routes.py          # FastAPI routes
+
 ├── embeddings/
+
 │   └── embedder.py        # Embedding pipeline
+
 ├── recommend/
+
 │   └── recommender.py     # Recommendation logic
+
 ├── data/
+
 │   └── ford_dataset.json  # Synthetic dataset
+
 ├── main.py                # FastAPI entrypoint
+
 ├── requirements.txt       # Dependencies
+
 ├── Dockerfile             # Containerization
+
 └── README.md              # Documentation
 
 # ford-ai-assistant
