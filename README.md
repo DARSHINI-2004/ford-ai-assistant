@@ -50,4 +50,38 @@ rag/
 
 # ford-ai-assistant
 
-
+                +----------------------+
+                |       User           |
+                | (Query Input)        |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    API Layer         |
+                | (Flask / FastAPI)   |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |  Query Processing    |
+                | (NLP / Preprocess)   |
+                +----------+-----------+
+                           |
+                           v
+        +----------------------------------------+
+        |  Retrieval / Knowledge Layer (RAG)     |
+        |  - Vehicle Dataset                     |
+        |  - Specs / Features / Manuals          |
+        +----------+-----------------------------+
+                   |
+                   v
+        +-----------------------------+
+        |  Response Generation Layer  |
+        | (Rule-based / LLM Logic)    |
+        +-------------+---------------+
+                      |
+                      v
+                +----------------------+
+                |   Final Response     |
+                | (Answer to User)     |
+                +----------------------+
