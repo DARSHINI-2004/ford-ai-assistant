@@ -41,7 +41,7 @@ uvicorn main:app --reload
 ### 5. Access API
 Open in browser:
 ```
-http://127.0.0.1:8001/docs
+http://127.0.0.1:8000/docs
 ```
 
 ---
@@ -60,9 +60,44 @@ The system follows a modular pipeline:
 ---
 
 ## Architecture Diagram
+
 ```
-User → API → NLP Processing → FAISS Retrieval → RAG → Response
-```
+
+                +----------------------+
+                |       User           |
+                | (Query Input)        |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    API Layer         |
+                | (Flask / FastAPI)   |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |  Query Processing    |
+                | (NLP / Preprocess)   |
+                +----------+-----------+
+                           |
+                           v
+        +----------------------------------------+
+        |  Retrieval / Knowledge Layer (RAG)     |
+        |  - Vehicle Dataset                     |
+        |  - Specs / Features / Manuals          |
+        +----------+-----------------------------+
+                   |
+                   v
+        +-----------------------------+
+        |  Response Generation Layer  |
+        | (Rule-based / LLM Logic)    |
+        +-------------+---------------+
+                      |
+                      v
+                +----------------------+
+                |   Final Response     |
+                | (Answer to User)     |
+                +----------------------+
 
 ---
 
