@@ -49,3 +49,28 @@ rag/
 └── README.md              # Documentation
 
 # ford-ai-assistant
+
+graph TD
+    User[User / Client] -->|HTTP Request| API[FastAPI /api/routes.py]
+
+    subgraph "Core Services"
+        API -->|Query| RAG[RAG Logic /rag/rag.py]
+        API -->|Attributes| REC[Recommender /recommend/recommender.py]
+        API -->|Search Term| SEARCH[Semantic Search]
+    end
+
+    subgraph "Vector Engine"
+        RAG -->|Context Retrieval| FAISS[FAISS Vector Store]
+        SEARCH -->|Vector Matching| FAISS
+        EMB[Sentence-Transformers] -->|Generates Embeddings| FAISS
+    end
+
+    subgraph "Data Layer"
+        FAISS -.->|Metadata Lookup| META[meta.json]
+        DATA[ford_vehicles.json] -->|Chunking| EMB
+    end
+
+    RAG -->|Augmented Prompt| LLM[LLM / Hallucination Mitigation]
+    LLM -->|Final Answer| API
+    REC -->|Recommendations| API
+    API -->|JSON Response| User
