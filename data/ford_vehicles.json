@@ -1,0 +1,174 @@
+{
+  "vehicles": [
+    {
+      "model": "Ford F-150",
+      "type": "Pickup",
+      "engine": "3.5L EcoBoost V6; 5.0L V8 (optional)",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "safety_features": [
+        "Pre-Collision Assist",
+        "Lane-Keeping System",
+        "Rear View Camera",
+        "Adaptive Cruise Control"
+      ],
+      "service_data": {
+        "oil_change_interval": "Every 7,500 miles or 6 months",
+        "tire_rotation_schedule": "Every 7,500 miles",
+        "brake_inspection_frequency": "Every 12 months or 12,000 miles",
+        "warranty": "3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+      },
+      "owner_manual_snippets": {
+        "dashboard_warnings": [
+          "Check engine light: Indicates emissions or engine issues; seek service.",
+          "Low oil pressure: Stop engine and check oil level immediately."
+        ],
+        "maintenance_alerts": [
+          "Service soon: Scheduled maintenance due based on mileage.",
+          "Tire pressure low: Inflate tires to recommended PSI."
+        ],
+        "basic_troubleshooting": [
+          "If vehicle won't start: Check battery connections and fuses.",
+          "If ABS light is on: Schedule brake system inspection."
+        ]
+      }
+    },
+    {
+      "model": "Ford Mustang",
+      "type": "Coupe",
+      "engine": "2.3L EcoBoost I4; 5.0L V8 (GT)",
+      "transmission": "6-speed manual; 10-speed automatic (optional)",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 4,
+      "safety_features": [
+        "Traction Control",
+        "Electronic Stability Control",
+        "Rear View Camera",
+        "Airbags"
+      ],
+      "service_data": {
+        "oil_change_interval": "Every 7,500 miles or 6 months (performance engines may require more frequent service)",
+        "tire_rotation_schedule": "Every 5,000-7,500 miles",
+        "brake_inspection_frequency": "Every 12 months or 12,000 miles",
+        "warranty": "3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+      },
+      "owner_manual_snippets": {
+        "dashboard_warnings": [
+          "Engine temperature high: Pull over safely and allow engine to cool.",
+          "Low fuel: Refuel soon to avoid running out of fuel."
+        ],
+        "maintenance_alerts": [
+          "Oil life low: Change oil as soon as possible.",
+          "Service traction control: System requires inspection."
+        ],
+        "basic_troubleshooting": [
+          "If check engine light blinks: Reduce speed and seek service.",
+          "If battery warning appears: Check alternator and battery connections."
+        ]
+      }
+    },
+    {
+      "model": "Ford Explorer",
+      "type": "SUV",
+      "engine": "2.3L EcoBoost I4; 3.0L V6 (optional)",
+      "transmission": "8-speed automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 7,
+      "safety_features": [
+        "Blind Spot Information System",
+        "Lane-Keeping System",
+        "Adaptive Cruise Control",
+        "Pre-Collision Assist"
+      ],
+      "service_data": {
+        "oil_change_interval": "Every 7,500 miles or 6 months",
+        "tire_rotation_schedule": "Every 7,500 miles",
+        "brake_inspection_frequency": "Every 12 months or 12,000 miles",
+        "warranty": "3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+      },
+      "owner_manual_snippets": {
+        "dashboard_warnings": [
+          "Low washer fluid: Refill reservoir.",
+          "Door ajar: Ensure all doors are closed before driving."
+        ],
+        "maintenance_alerts": [
+          "Service AWD: All-wheel-drive system requires inspection.",
+          "Tire pressure monitoring: Check and inflate tires."
+        ],
+        "basic_troubleshooting": [
+          "If parking sensors fail: Check sensor area for dirt or obstructions.",
+          "If infotainment unresponsive: Restart system by turning vehicle off and on."
+        ]
+      }
+    },
+    {
+      "model": "Ford Escape",
+      "type": "Compact SUV",
+      "engine": "1.5L EcoBoost I3; 2.0L EcoBoost I4",
+      "transmission": "8-speed automatic",
+      "fuel_type": "Gasoline; Hybrid available",
+      "seating_capacity": 5,
+      "safety_features": [
+        "Lane-Keeping System",
+        "Pre-Collision Assist",
+        "Rear View Camera",
+        "Adaptive Cruise Control"
+      ],
+      "service_data": {
+        "oil_change_interval": "Every 7,500 miles or 6 months (hybrid models may vary)",
+        "tire_rotation_schedule": "Every 7,500 miles",
+        "brake_inspection_frequency": "Every 12 months or 12,000 miles",
+        "warranty": "3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+      },
+      "owner_manual_snippets": {
+        "dashboard_warnings": [
+          "Hybrid system warning: Seek dealer service for hybrid-specific issues.",
+          "Low fuel: Refuel soon."
+        ],
+        "maintenance_alerts": [
+          "Battery service required: Hybrid battery may need inspection.",
+          "Oil life low: Schedule oil change."
+        ],
+        "basic_troubleshooting": [
+          "If traction control light stays on: Inspect tires and sensors.",
+          "If key fob not detected: Replace battery or use backup start procedure."
+        ]
+      }
+    },
+    {
+      "model": "Ford Ranger",
+      "type": "Pickup",
+      "engine": "2.3L EcoBoost I4",
+      "transmission": "10-speed automatic",
+      "fuel_type": "Gasoline",
+      "seating_capacity": 5,
+      "safety_features": [
+        "Pre-Collision Assist",
+        "Lane-Keeping System",
+        "Rear View Camera",
+        "Roll Stability Control"
+      ],
+      "service_data": {
+        "oil_change_interval": "Every 7,500 miles or 6 months",
+        "tire_rotation_schedule": "Every 7,500 miles",
+        "brake_inspection_frequency": "Every 12 months or 12,000 miles",
+        "warranty": "3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+      },
+      "owner_manual_snippets": {
+        "dashboard_warnings": [
+          "4x4 system warning: Check transfer case and 4x4 components.",
+          "Low oil pressure: Stop engine and check oil level."
+        ],
+        "maintenance_alerts": [
+          "Towing mode: Follow towing guidelines in manual.",
+          "Service soon: Scheduled maintenance due."
+        ],
+        "basic_troubleshooting": [
+          "If trailer sway detected: Reduce speed and check hitch.",
+          "If engine misfires: Check spark plugs and fuel system."
+        ]
+      }
+    }
+  ]
+}

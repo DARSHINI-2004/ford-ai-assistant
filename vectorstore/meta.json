@@ -1,0 +1,277 @@
+[
+  {
+    "model": "Ford F-150",
+    "chunk_type": "specs",
+    "text": "Ford F-150 | Engine: 3.5L EcoBoost V6; 5.0L V8 (optional) | Transmission: 10-speed automatic | Fuel: Gasoline | Seating: 5"
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "service_oil_change_interval",
+    "text": "Ford F-150 oil change interval: Every 7,500 miles or 6 months"
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "service_tire_rotation_schedule",
+    "text": "Ford F-150 tire rotation schedule: Every 7,500 miles"
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "service_brake_inspection_frequency",
+    "text": "Ford F-150 brake inspection frequency: Every 12 months or 12,000 miles"
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "service_warranty",
+    "text": "Ford F-150 warranty: 3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "dashboard_warnings",
+    "text": "Check engine light: Indicates emissions or engine issues; seek service."
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "dashboard_warnings",
+    "text": "Low oil pressure: Stop engine and check oil level immediately."
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "maintenance_alerts",
+    "text": "Service soon: Scheduled maintenance due based on mileage."
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "maintenance_alerts",
+    "text": "Tire pressure low: Inflate tires to recommended PSI."
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If vehicle won't start: Check battery connections and fuses."
+  },
+  {
+    "model": "Ford F-150",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If ABS light is on: Schedule brake system inspection."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "specs",
+    "text": "Ford Mustang | Engine: 2.3L EcoBoost I4; 5.0L V8 (GT) | Transmission: 6-speed manual; 10-speed automatic (optional) | Fuel: Gasoline | Seating: 4"
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "service_oil_change_interval",
+    "text": "Ford Mustang oil change interval: Every 7,500 miles or 6 months (performance engines may require more frequent service)"
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "service_tire_rotation_schedule",
+    "text": "Ford Mustang tire rotation schedule: Every 5,000-7,500 miles"
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "service_brake_inspection_frequency",
+    "text": "Ford Mustang brake inspection frequency: Every 12 months or 12,000 miles"
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "service_warranty",
+    "text": "Ford Mustang warranty: 3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "dashboard_warnings",
+    "text": "Engine temperature high: Pull over safely and allow engine to cool."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "dashboard_warnings",
+    "text": "Low fuel: Refuel soon to avoid running out of fuel."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "maintenance_alerts",
+    "text": "Oil life low: Change oil as soon as possible."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "maintenance_alerts",
+    "text": "Service traction control: System requires inspection."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If check engine light blinks: Reduce speed and seek service."
+  },
+  {
+    "model": "Ford Mustang",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If battery warning appears: Check alternator and battery connections."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "specs",
+    "text": "Ford Explorer | Engine: 2.3L EcoBoost I4; 3.0L V6 (optional) | Transmission: 8-speed automatic | Fuel: Gasoline | Seating: 7"
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "service_oil_change_interval",
+    "text": "Ford Explorer oil change interval: Every 7,500 miles or 6 months"
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "service_tire_rotation_schedule",
+    "text": "Ford Explorer tire rotation schedule: Every 7,500 miles"
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "service_brake_inspection_frequency",
+    "text": "Ford Explorer brake inspection frequency: Every 12 months or 12,000 miles"
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "service_warranty",
+    "text": "Ford Explorer warranty: 3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "dashboard_warnings",
+    "text": "Low washer fluid: Refill reservoir."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "dashboard_warnings",
+    "text": "Door ajar: Ensure all doors are closed before driving."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "maintenance_alerts",
+    "text": "Service AWD: All-wheel-drive system requires inspection."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "maintenance_alerts",
+    "text": "Tire pressure monitoring: Check and inflate tires."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If parking sensors fail: Check sensor area for dirt or obstructions."
+  },
+  {
+    "model": "Ford Explorer",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If infotainment unresponsive: Restart system by turning vehicle off and on."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "specs",
+    "text": "Ford Escape | Engine: 1.5L EcoBoost I3; 2.0L EcoBoost I4 | Transmission: 8-speed automatic | Fuel: Gasoline; Hybrid available | Seating: 5"
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "service_oil_change_interval",
+    "text": "Ford Escape oil change interval: Every 7,500 miles or 6 months (hybrid models may vary)"
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "service_tire_rotation_schedule",
+    "text": "Ford Escape tire rotation schedule: Every 7,500 miles"
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "service_brake_inspection_frequency",
+    "text": "Ford Escape brake inspection frequency: Every 12 months or 12,000 miles"
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "service_warranty",
+    "text": "Ford Escape warranty: 3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "dashboard_warnings",
+    "text": "Hybrid system warning: Seek dealer service for hybrid-specific issues."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "dashboard_warnings",
+    "text": "Low fuel: Refuel soon."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "maintenance_alerts",
+    "text": "Battery service required: Hybrid battery may need inspection."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "maintenance_alerts",
+    "text": "Oil life low: Schedule oil change."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If traction control light stays on: Inspect tires and sensors."
+  },
+  {
+    "model": "Ford Escape",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If key fob not detected: Replace battery or use backup start procedure."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "specs",
+    "text": "Ford Ranger | Engine: 2.3L EcoBoost I4 | Transmission: 10-speed automatic | Fuel: Gasoline | Seating: 5"
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "service_oil_change_interval",
+    "text": "Ford Ranger oil change interval: Every 7,500 miles or 6 months"
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "service_tire_rotation_schedule",
+    "text": "Ford Ranger tire rotation schedule: Every 7,500 miles"
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "service_brake_inspection_frequency",
+    "text": "Ford Ranger brake inspection frequency: Every 12 months or 12,000 miles"
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "service_warranty",
+    "text": "Ford Ranger warranty: 3 years / 36,000 miles basic; 5 years / 60,000 miles powertrain"
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "dashboard_warnings",
+    "text": "4x4 system warning: Check transfer case and 4x4 components."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "dashboard_warnings",
+    "text": "Low oil pressure: Stop engine and check oil level."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "maintenance_alerts",
+    "text": "Towing mode: Follow towing guidelines in manual."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "maintenance_alerts",
+    "text": "Service soon: Scheduled maintenance due."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If trailer sway detected: Reduce speed and check hitch."
+  },
+  {
+    "model": "Ford Ranger",
+    "chunk_type": "basic_troubleshooting",
+    "text": "If engine misfires: Check spark plugs and fuel system."
+  }
+]
