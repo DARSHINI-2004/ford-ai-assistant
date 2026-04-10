@@ -25,7 +25,7 @@ cd ford-ai-assistant
 ### 2. Create virtual environment
 ```bash
 python -m venv venv
-venv\Scripts\activate  
+venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -60,9 +60,7 @@ The system follows a modular pipeline:
 ---
 
 ## Architecture Diagram
-
 ```
-
                 +----------------------+
                 |       User           |
                 | (Query Input)        |
@@ -71,7 +69,7 @@ The system follows a modular pipeline:
                            v
                 +----------------------+
                 |    API Layer         |
-                | (Flask / FastAPI)   |
+                | (FastAPI)            |
                 +----------+-----------+
                            |
                            v
@@ -98,6 +96,7 @@ The system follows a modular pipeline:
                 |   Final Response     |
                 | (Answer to User)     |
                 +----------------------+
+```
 
 ---
 
