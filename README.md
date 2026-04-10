@@ -1,87 +1,114 @@
 # Automotive AI Assistant – Ford Vehicle Intelligence System
 
 ## Overview
-This project is a mini AI-powered automotive knowledge assistant built with **FastAPI**.  
-It answers queries about Ford vehicles, including:
-- Vehicle models & specifications
-- Features & safety systems
-- Service schedules & maintenance
-- Owner manual snippets
-- Common troubleshooting issues
+This project is a mini AI-powered automotive knowledge assistant built using FastAPI. It answers queries related to Ford vehicles, including specifications, features, service schedules, and common issues.
 
-It demonstrates **semantic search**, **RAG (Retrieval-Augmented Generation)**, and **recommendation logic**.
+The system uses Retrieval-Augmented Generation (RAG) with semantic search to provide accurate and context-aware responses.
 
 ---
 
-##  Features
-- **/search** → Semantic search using FAISS + sentence-transformers
-- **/ask** → RAG assistant with context injection and hallucination mitigation
-- **/recommend** → Simple vehicle recommendation logic based on attributes
+## Features
+- `/search` → Semantic search using FAISS and sentence-transformers  
+- `/ask` → RAG-based Q&A with context-aware responses  
+- `/recommend` → Rule-based vehicle recommendation system  
+
+---
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/DARSHINI-2004/ford-ai-assistant.git
+cd ford-ai-assistant
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Mac/Linux
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+```bash
+uvicorn main:app --reload
+```
+
+### 5. Access API
+Open in browser:
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Architecture Explanation
+The system follows a modular pipeline:
+
+1. User sends a query through API endpoints  
+2. FastAPI handles request routing  
+3. Query is processed using NLP preprocessing  
+4. FAISS retrieves relevant data from the dataset  
+5. Retrieved context is passed into the RAG pipeline  
+6. Response is generated using rule-based or LLM logic  
+7. Final response is returned to the user  
+
+---
+
+## Architecture Diagram
+```
+User → API → NLP Processing → FAISS Retrieval → RAG → Response
+```
+
+---
+
+## Design Decisions
+- FastAPI chosen for its speed and automatic API documentation  
+- FAISS used for efficient similarity search  
+- sentence-transformers used for semantic understanding  
+- RAG approach reduces hallucination and improves accuracy  
+- Modular structure ensures scalability  
+- Synthetic dataset simulates real-world automotive data  
 
 ---
 
 ## Project Structure
-
+```
 rag/
-
 ├── api/
-
-│   └── routes.py          # FastAPI routes
-
+│   └── routes.py
 ├── embeddings/
-
-│   └── embedder.py        # Embedding pipeline
-
+│   └── embedder.py
 ├── recommend/
-
-│   └── recommender.py     # Recommendation logic
-
+│   └── recommender.py
 ├── data/
+│   └── ford_dataset.json
+├── main.py
+├── requirements.txt
+├── Dockerfile
+└── README.md
+```
 
-│   └── ford_dataset.json  # Synthetic dataset
+---
 
-├── main.py                # FastAPI entrypoint
+## Docker Support
 
-├── requirements.txt       # Dependencies
+### Build image
+```bash
+docker build -t ford-ai-assistant .
+```
 
-├── Dockerfile             # Containerization
+### Run container
+```bash
+docker run -p 8000:8000 ford-ai-assistant
+```
 
-└── README.md              # Documentation
+---
 
-# ford-ai-assistant
-
-                +----------------------+
-                |       User           |
-                | (Query Input)        |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |    API Layer         |
-                | (Flask / FastAPI)   |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |  Query Processing    |
-                | (NLP / Preprocess)   |
-                +----------+-----------+
-                           |
-                           v
-        +----------------------------------------+
-        |  Retrieval / Knowledge Layer (RAG)     |
-        |  - Vehicle Dataset                     |
-        |  - Specs / Features / Manuals          |
-        +----------+-----------------------------+
-                   |
-                   v
-        +-----------------------------+
-        |  Response Generation Layer  |
-        | (Rule-based / LLM Logic)    |
-        +-------------+---------------+
-                      |
-                      v
-                +----------------------+
-                |   Final Response     |
-                | (Answer to User)     |
-                +----------------------+
+## Conclusion
+This project demonstrates the implementation of semantic search, RAG architecture, and recommendation systems in an AI-powered automotive assistant.
