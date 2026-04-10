@@ -23,7 +23,9 @@ It demonstrates **semantic search**, **RAG (Retrieval-Augmented Generation)**, a
 ## Project Structure
 
 rag/
+
 ├── api/
+
 │   └── routes.py          # FastAPI routes
 ├── embeddings/
 │   └── embedder.py        # Embedding pipeline
