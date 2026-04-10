@@ -36,3 +36,4 @@ rag/
 ├── Dockerfile             # Containerization
 └── README.md              # Documentation
 
+# ford-ai-assistant
