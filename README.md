@@ -1,18 +1,4 @@
-# Automotive AI Assistant – Ford Vehicle Intelligence System
-
-## Overview
-This project is a mini AI-powered automotive knowledge assistant built using FastAPI. It answers queries related to Ford vehicles, including specifications, features, service schedules, and common issues.
-
-The system uses Retrieval-Augmented Generation (RAG) with semantic search to provide accurate and context-aware responses.
-
----
-
-## Features
-- `/search` → Semantic search using FAISS and sentence-transformers  
-- `/ask` → RAG-based Q&A with context-aware responses  
-- `/recommend` → Rule-based vehicle recommendation system  
-
----
+# Automotive AI Assistant 
 
 ## Setup Instructions
 
@@ -110,35 +96,7 @@ The system follows a modular pipeline:
 
 ---
 
-## Project Structure
-```
-rag/
-├── api/
-│   └── routes.py
-├── embeddings/
-│   └── embedder.py
-├── recommend/
-│   └── recommender.py
-├── data/
-│   └── ford_dataset.json
-├── main.py
-├── requirements.txt
-├── Dockerfile
-└── README.md
-```
 
 ---
 
-## Docker Support
 
-### Build image
-```bash
-docker build -t ford-ai-assistant .
-```
-
-### Run container
-```bash
-docker run -p 8000:8000 ford-ai-assistant
-```
-
----
