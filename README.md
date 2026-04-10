@@ -25,8 +25,7 @@ cd ford-ai-assistant
 ### 2. Create virtual environment
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate  
 ```
 
 ### 3. Install dependencies
@@ -42,7 +41,7 @@ uvicorn main:app --reload
 ### 5. Access API
 Open in browser:
 ```
-http://127.0.0.1:8000/docs
+http://127.0.0.1:8001/docs
 ```
 
 ---
@@ -109,6 +108,3 @@ docker run -p 8000:8000 ford-ai-assistant
 ```
 
 ---
-
-## Conclusion
-This project demonstrates the implementation of semantic search, RAG architecture, and recommendation systems in an AI-powered automotive assistant.
